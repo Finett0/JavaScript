@@ -1,5 +1,10 @@
-var
+// Escopo global, o valor da variavel pode mudar, sofre hoisting
+var nome = 'Giovanni';
+console.log(nome)
 
-let
+// Escopo de bloco, Não pode ser redeclarada no mesmo escopo, não sofre hoisting
+let idade = 20;
 
-const
+
+// Escopo de bloco, imutavel
+const cidade = 'São Paulo';
